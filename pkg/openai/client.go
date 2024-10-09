@@ -10,7 +10,6 @@ import (
 	"sort"
 	"strings"
 
-	openai "github.com/gptscript-ai/chat-completion-client"
 	"github.com/gptscript-ai/gptscript/pkg/cache"
 	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
 	"github.com/gptscript-ai/gptscript/pkg/counter"
@@ -20,6 +19,7 @@ import (
 	"github.com/gptscript-ai/gptscript/pkg/prompt"
 	"github.com/gptscript-ai/gptscript/pkg/system"
 	"github.com/gptscript-ai/gptscript/pkg/types"
+	openai "github.com/sanjay920/chat-completion-client"
 )
 
 const (
@@ -342,6 +342,7 @@ func (c *Client) Call(ctx context.Context, messageRequest types.CompletionReques
 		Model:     messageRequest.Model,
 		Messages:  msgs,
 		MaxTokens: messageRequest.MaxTokens,
+		Store:     true,
 	}
 
 	if messageRequest.Temperature == nil {
@@ -374,6 +375,8 @@ func (c *Client) Call(ctx context.Context, messageRequest types.CompletionReques
 			},
 		})
 	}
+
+	slog.Debug("OpenAI request", "request", request)
 
 	id := counter.Next()
 	status <- types.CompletionStatus{
@@ -583,6 +586,7 @@ func (c *Client) call(ctx context.Context, request openai.ChatCompletionRequest,
 	}
 
 	stream, err := c.c.CreateChatCompletionStream(ctx, request)
+
 	if err != nil {
 		return nil, err
 	}

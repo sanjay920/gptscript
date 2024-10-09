@@ -1,4 +1,4 @@
-module github.com/gptscript-ai/gptscript
+module github.com/sanjay920/gptscript
 
 go 1.23.1
 
@@ -15,7 +15,6 @@ require (
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.6.0
 	github.com/gptscript-ai/broadcaster v0.0.0-20240625175512-c43682019b86
-	github.com/gptscript-ai/chat-completion-client v0.0.0-20240813051153-a440ada7e3c3
 	github.com/gptscript-ai/cmd v0.0.0-20240802230653-326b7baf6fcb
 	github.com/gptscript-ai/go-gptscript v0.9.5-rc5.0.20240927213153-2af51434b93e
 	github.com/gptscript-ai/tui v0.0.0-20240923192013-172e51ccf1d6
@@ -25,6 +24,7 @@ require (
 	github.com/mholt/archiver/v4 v4.0.0-alpha.8
 	github.com/rs/cors v1.11.0
 	github.com/samber/lo v1.38.1
+	github.com/sanjay920/chat-completion-client v0.0.0-20241008225547-e38560cd92a7
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
@@ -76,7 +76,6 @@ require (
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hexops/autogold v1.3.1 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect

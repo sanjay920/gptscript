@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/getkin/kin-openapi/openapi3gen"
-	openai "github.com/gptscript-ai/chat-completion-client"
+	openai "github.com/sanjay920/chat-completion-client"
 )
 
 const instructions = `"actual" is considered equivalent to "expected" if and only if the following rules are satisfied:

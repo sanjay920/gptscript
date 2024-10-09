@@ -15,9 +15,9 @@ import (
 
 	"github.com/adrg/xdg"
 	"github.com/getkin/kin-openapi/openapi3"
-	openai "github.com/gptscript-ai/chat-completion-client"
 	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/gptscript-ai/gptscript/pkg/version"
+	openai "github.com/sanjay920/chat-completion-client"
 )
 
 type Client struct {

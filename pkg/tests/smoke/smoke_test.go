@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	openai "github.com/gptscript-ai/chat-completion-client"
 	"github.com/gptscript-ai/gptscript/pkg/runner"
 	"github.com/gptscript-ai/gptscript/pkg/tests/judge"
 	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/samber/lo"
+	openai "github.com/sanjay920/chat-completion-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gotest.tools/v3/icmd"

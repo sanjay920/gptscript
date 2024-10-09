@@ -1,7 +1,7 @@
 package openai
 
 import (
-	openai "github.com/gptscript-ai/chat-completion-client"
+	openai "github.com/sanjay920/chat-completion-client"
 )
 
 const DefaultMaxTokens = 128_000

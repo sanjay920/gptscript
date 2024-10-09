@@ -3,10 +3,10 @@ package openai
 import (
 	"testing"
 
-	openai "github.com/gptscript-ai/chat-completion-client"
 	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/hexops/autogold/v2"
 	"github.com/hexops/valast"
+	openai "github.com/sanjay920/chat-completion-client"
 )
 
 func Test_appendMessage(t *testing.T) {
