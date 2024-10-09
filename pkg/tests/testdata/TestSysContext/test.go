@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gptscript-ai/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/engine"
 )
 
 func main() {

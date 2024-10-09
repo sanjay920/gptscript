@@ -11,7 +11,7 @@ import (
 	"github.com/docker/cli/cli/config/credentials"
 	"github.com/docker/cli/cli/config/types"
 	credentials2 "github.com/docker/docker-credential-helpers/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/config"
+	"github.com/sanjay920/gptscript/pkg/config"
 	"golang.org/x/exp/maps"
 )
 

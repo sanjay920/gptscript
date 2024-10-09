@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/chat"
-	"github.com/gptscript-ai/gptscript/pkg/gptscript"
-	"github.com/gptscript-ai/gptscript/pkg/input"
-	"github.com/gptscript-ai/gptscript/pkg/loader"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/chat"
+	"github.com/sanjay920/gptscript/pkg/gptscript"
+	"github.com/sanjay920/gptscript/pkg/input"
+	"github.com/sanjay920/gptscript/pkg/loader"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"github.com/spf13/cobra"
 )
 

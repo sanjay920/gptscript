@@ -1,12 +1,12 @@
 package runtimes
 
 import (
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/repos"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes/busybox"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes/golang"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes/node"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes/python"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/repos"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes/busybox"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes/golang"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes/node"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes/python"
 )
 
 var Runtimes = []repos.Runtime{

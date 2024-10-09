@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/gptscript-ai/gptscript/pkg/openapi"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/openapi"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 var toolNameRegex = regexp.MustCompile(`[^a-zA-Z0-9_-]+`)

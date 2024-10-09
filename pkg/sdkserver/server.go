@@ -15,12 +15,12 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/gptscript-ai/broadcaster"
-	"github.com/gptscript-ai/gptscript/pkg/gptscript"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/rs/cors"
+	"github.com/sanjay920/gptscript/pkg/gptscript"
+	"github.com/sanjay920/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Options struct {

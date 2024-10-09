@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 var (

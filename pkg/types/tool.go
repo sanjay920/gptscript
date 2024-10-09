@@ -11,7 +11,7 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/google/shlex"
-	"github.com/gptscript-ai/gptscript/pkg/system"
+	"github.com/sanjay920/gptscript/pkg/system"
 	"golang.org/x/exp/maps"
 )
 

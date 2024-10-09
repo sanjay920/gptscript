@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/gptscript-ai/gptscript/pkg/openapi"
+	"github.com/sanjay920/gptscript/pkg/openapi"
 	"github.com/stretchr/testify/require"
 )
 

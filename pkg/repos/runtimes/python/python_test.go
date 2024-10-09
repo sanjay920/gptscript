@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/adrg/xdg"
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/samber/lo"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"github.com/stretchr/testify/require"
 )
 

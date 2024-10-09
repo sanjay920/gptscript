@@ -14,12 +14,12 @@ import (
 	"time"
 
 	"github.com/BurntSushi/locker"
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/hash"
-	"github.com/gptscript-ai/gptscript/pkg/repos/git"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes/golang"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/config"
+	"github.com/sanjay920/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/hash"
+	"github.com/sanjay920/gptscript/pkg/repos/git"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes/golang"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Runtime interface {

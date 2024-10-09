@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	runtimeEnv "github.com/gptscript-ai/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/config"
+	runtimeEnv "github.com/sanjay920/gptscript/pkg/env"
 )
 
 type CredentialHelperDirs struct {

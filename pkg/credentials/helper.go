@@ -10,7 +10,7 @@ import (
 	"github.com/docker/cli/cli/config/types"
 	"github.com/docker/docker-credential-helpers/client"
 	credentials2 "github.com/docker/docker-credential-helpers/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/config"
+	"github.com/sanjay920/gptscript/pkg/config"
 )
 
 func NewHelper(c *config.CLIConfig, helper string) (credentials.Store, error) {

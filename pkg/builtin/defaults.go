@@ -1,8 +1,8 @@
 package builtin
 
 import (
-	"github.com/gptscript-ai/gptscript/pkg/openai"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/openai"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/credentials"
 	"github.com/tidwall/gjson"
 )
 

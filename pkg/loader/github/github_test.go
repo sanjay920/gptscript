@@ -8,14 +8,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/hexops/autogold/v2"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
 func TestLoad(t *testing.T) {
-	url, _, repo, ok, err := Load(context.Background(), nil, "github.com/gptscript-ai/gptscript/pkg/loader/testdata/tool@172dfb0")
+	url, _, repo, ok, err := Load(context.Background(), nil, "github.com/sanjay920/gptscript/pkg/loader/testdata/tool@172dfb0")
 	require.NoError(t, err)
 	assert.True(t, ok)
 	autogold.Expect("https://raw.githubusercontent.com/gptscript-ai/gptscript/172dfb00b48c6adbbaa7e99270933f95887d1b91/pkg/loader/testdata/tool/tool.gpt").Equal(t, url)
@@ -26,7 +26,7 @@ func TestLoad(t *testing.T) {
 		Revision: "172dfb00b48c6adbbaa7e99270933f95887d1b91",
 	}).Equal(t, repo)
 
-	url, _, repo, ok, err = Load(context.Background(), nil, "github.com/gptscript-ai/gptscript/pkg/loader/testdata/agent@172dfb0")
+	url, _, repo, ok, err = Load(context.Background(), nil, "github.com/sanjay920/gptscript/pkg/loader/testdata/agent@172dfb0")
 	require.NoError(t, err)
 	assert.True(t, ok)
 	autogold.Expect("https://raw.githubusercontent.com/gptscript-ai/gptscript/172dfb00b48c6adbbaa7e99270933f95887d1b91/pkg/loader/testdata/agent/agent.gpt").Equal(t, url)
@@ -37,7 +37,7 @@ func TestLoad(t *testing.T) {
 		Revision: "172dfb00b48c6adbbaa7e99270933f95887d1b91",
 	}).Equal(t, repo)
 
-	url, _, repo, ok, err = Load(context.Background(), nil, "github.com/gptscript-ai/gptscript/pkg/loader/testdata/bothtoolagent@172dfb0")
+	url, _, repo, ok, err = Load(context.Background(), nil, "github.com/sanjay920/gptscript/pkg/loader/testdata/bothtoolagent@172dfb0")
 	require.NoError(t, err)
 	assert.True(t, ok)
 	autogold.Expect("https://raw.githubusercontent.com/gptscript-ai/gptscript/172dfb00b48c6adbbaa7e99270933f95887d1b91/pkg/loader/testdata/bothtoolagent/agent.gpt").Equal(t, url)
@@ -77,7 +77,7 @@ func TestLoad_GithubEnterprise(t *testing.T) {
 	}).Equal(t, repo)
 	autogold.Expect(gheToken).Equal(t, token)
 
-	url, token, repo, ok, err = Load(context.Background(), nil, "github.com/gptscript-ai/gptscript/pkg/loader/testdata/agent@172dfb0")
+	url, token, repo, ok, err = Load(context.Background(), nil, "github.com/sanjay920/gptscript/pkg/loader/testdata/agent@172dfb0")
 	require.NoError(t, err)
 	assert.True(t, ok)
 	autogold.Expect("https://raw.githubusercontent.com/gptscript-ai/gptscript/172dfb00b48c6adbbaa7e99270933f95887d1b91/pkg/loader/testdata/agent/agent.gpt").Equal(t, url)
@@ -89,7 +89,7 @@ func TestLoad_GithubEnterprise(t *testing.T) {
 	}).Equal(t, repo)
 	autogold.Expect("").Equal(t, token)
 
-	url, token, repo, ok, err = Load(context.Background(), nil, "github.com/gptscript-ai/gptscript/pkg/loader/testdata/bothtoolagent@172dfb0")
+	url, token, repo, ok, err = Load(context.Background(), nil, "github.com/sanjay920/gptscript/pkg/loader/testdata/bothtoolagent@172dfb0")
 	require.NoError(t, err)
 	assert.True(t, ok)
 	autogold.Expect("https://raw.githubusercontent.com/gptscript-ai/gptscript/172dfb00b48c6adbbaa7e99270933f95887d1b91/pkg/loader/testdata/bothtoolagent/agent.gpt").Equal(t, url)

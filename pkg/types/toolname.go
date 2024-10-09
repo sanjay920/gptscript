@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/system"
+	"github.com/sanjay920/gptscript/pkg/system"
 )
 
 var (

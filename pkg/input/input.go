@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/internal"
-	"github.com/gptscript-ai/gptscript/pkg/loader"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/internal"
+	"github.com/sanjay920/gptscript/pkg/loader"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 func FromArgs(args []string) string {

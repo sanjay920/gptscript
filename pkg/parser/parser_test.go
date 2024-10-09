@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/hexops/autogold/v2"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

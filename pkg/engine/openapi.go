@@ -11,9 +11,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/env"
-	"github.com/gptscript-ai/gptscript/pkg/openapi"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/openapi"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"github.com/tidwall/gjson"
 )
 

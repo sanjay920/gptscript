@@ -18,12 +18,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	"github.com/gptscript-ai/gptscript/pkg/debugcmd"
-	runtimeEnv "github.com/gptscript-ai/gptscript/pkg/env"
-	"github.com/gptscript-ai/gptscript/pkg/hash"
-	"github.com/gptscript-ai/gptscript/pkg/repos/download"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/config"
+	"github.com/sanjay920/gptscript/pkg/debugcmd"
+	runtimeEnv "github.com/sanjay920/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/hash"
+	"github.com/sanjay920/gptscript/pkg/repos/download"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 //go:embed digests.txt

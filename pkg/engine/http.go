@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 const DaemonURLSuffix = ".daemon.gptscript.local"

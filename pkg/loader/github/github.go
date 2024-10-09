@@ -12,11 +12,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/cache"
-	"github.com/gptscript-ai/gptscript/pkg/loader"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
-	"github.com/gptscript-ai/gptscript/pkg/repos/git"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/cache"
+	"github.com/sanjay920/gptscript/pkg/loader"
+	"github.com/sanjay920/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/repos/git"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Config struct {

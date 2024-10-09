@@ -9,8 +9,8 @@ import (
 	"github.com/adrg/xdg"
 	"github.com/chzyer/readline"
 	"github.com/fatih/color"
-	"github.com/gptscript-ai/gptscript/pkg/hash"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/hash"
+	"github.com/sanjay920/gptscript/pkg/mvl"
 )
 
 var _ Prompter = (*readlinePrompter)(nil)

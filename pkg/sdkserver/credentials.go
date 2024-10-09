@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"slices"
 
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/config"
+	gcontext "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/credentials"
 )
 
 func (s *server) initializeCredentialStore(ctx context.Context, credCtxs []string) (credentials.CredentialStore, error) {

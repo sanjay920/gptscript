@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/gptscript-ai/gptscript/pkg/counter"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/counter"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Options struct {

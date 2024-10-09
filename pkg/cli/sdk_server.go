@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/gptscript-ai/gptscript/pkg/sdkserver"
+	"github.com/sanjay920/gptscript/pkg/sdkserver"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )

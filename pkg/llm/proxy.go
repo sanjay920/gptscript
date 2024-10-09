@@ -11,8 +11,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/builtin"
-	"github.com/gptscript-ai/gptscript/pkg/openai"
+	"github.com/sanjay920/gptscript/pkg/builtin"
+	"github.com/sanjay920/gptscript/pkg/openai"
 )
 
 func (r *Registry) ProxyInfo() (string, string, error) {

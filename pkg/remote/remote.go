@@ -9,16 +9,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gptscript-ai/gptscript/pkg/cache"
-	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	env2 "github.com/gptscript-ai/gptscript/pkg/env"
-	"github.com/gptscript-ai/gptscript/pkg/loader"
-	"github.com/gptscript-ai/gptscript/pkg/openai"
-	"github.com/gptscript-ai/gptscript/pkg/prompt"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/cache"
+	gcontext "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	env2 "github.com/sanjay920/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/loader"
+	"github.com/sanjay920/gptscript/pkg/openai"
+	"github.com/sanjay920/gptscript/pkg/prompt"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Client struct {

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/config"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 func runtimeWithLogger(callCtx engine.Context, monitor Monitor, rm engine.RuntimeManager) engine.RuntimeManager {

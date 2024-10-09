@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Event struct {

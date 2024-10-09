@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/adrg/xdg"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes/python"
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/samber/lo"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes/python"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

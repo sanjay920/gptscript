@@ -7,11 +7,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/counter"
-	"github.com/gptscript-ai/gptscript/pkg/types"
-	"github.com/gptscript-ai/gptscript/pkg/version"
+	"github.com/sanjay920/gptscript/pkg/config"
+	gcontext "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/counter"
+	"github.com/sanjay920/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/version"
 )
 
 type Model interface {

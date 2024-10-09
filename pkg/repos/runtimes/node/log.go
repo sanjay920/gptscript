@@ -1,5 +1,5 @@
 package node
 
-import "github.com/gptscript-ai/gptscript/pkg/mvl"
+import "github.com/sanjay920/gptscript/pkg/mvl"
 
 var log = mvl.Package()

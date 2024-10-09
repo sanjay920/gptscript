@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	gserver "github.com/gptscript-ai/gptscript/pkg/server"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	gcontext "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	gserver "github.com/sanjay920/gptscript/pkg/server"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 func (s *server) promptResponse(w http.ResponseWriter, r *http.Request) {

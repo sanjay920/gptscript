@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/debugcmd"
+	"github.com/sanjay920/gptscript/pkg/debugcmd"
 )
 
 func newGitCommand(ctx context.Context, args ...string) *debugcmd.WrappedCmd {

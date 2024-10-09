@@ -6,8 +6,8 @@ import (
 	"os/signal"
 
 	"github.com/gptscript-ai/cmd"
-	"github.com/gptscript-ai/gptscript/pkg/daemon"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/daemon"
+	"github.com/sanjay920/gptscript/pkg/mvl"
 )
 
 func Main() {

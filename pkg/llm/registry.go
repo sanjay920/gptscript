@@ -8,10 +8,10 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/gptscript-ai/gptscript/pkg/env"
-	"github.com/gptscript-ai/gptscript/pkg/openai"
-	"github.com/gptscript-ai/gptscript/pkg/remote"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/openai"
+	"github.com/sanjay920/gptscript/pkg/remote"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type Client interface {

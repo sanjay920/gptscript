@@ -4,9 +4,9 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/gptscript-ai/gptscript/internal"
-	"github.com/gptscript-ai/gptscript/pkg/cli"
-	"github.com/gptscript-ai/gptscript/pkg/system"
+	"github.com/sanjay920/gptscript/internal"
+	"github.com/sanjay920/gptscript/pkg/cli"
+	"github.com/sanjay920/gptscript/pkg/system"
 )
 
 type Options struct {

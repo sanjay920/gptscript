@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/auth"
-	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	gserver "github.com/gptscript-ai/gptscript/pkg/server"
+	"github.com/sanjay920/gptscript/pkg/auth"
+	gcontext "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	gserver "github.com/sanjay920/gptscript/pkg/server"
 )
 
 func (s *server) authorize(ctx engine.Context, input string) (runner.AuthorizerResponse, error) {

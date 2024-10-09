@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/system"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/system"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 var ports Ports

@@ -10,16 +10,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/cache"
-	gcontext "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/counter"
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/hash"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
-	"github.com/gptscript-ai/gptscript/pkg/prompt"
-	"github.com/gptscript-ai/gptscript/pkg/system"
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	openai "github.com/sanjay920/chat-completion-client"
+	"github.com/sanjay920/gptscript/pkg/cache"
+	gcontext "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/counter"
+	"github.com/sanjay920/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/hash"
+	"github.com/sanjay920/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/prompt"
+	"github.com/sanjay920/gptscript/pkg/system"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 const (

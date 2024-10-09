@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/input"
-	"github.com/gptscript-ai/gptscript/pkg/parser"
+	"github.com/sanjay920/gptscript/pkg/input"
+	"github.com/sanjay920/gptscript/pkg/parser"
 	"github.com/spf13/cobra"
 )
 

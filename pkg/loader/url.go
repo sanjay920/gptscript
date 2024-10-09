@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/cache"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/cache"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type VCSLookup func(context.Context, *cache.Client, string) (string, string, *types.Repo, bool, error)

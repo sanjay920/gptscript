@@ -17,10 +17,10 @@ import (
 	"sync"
 
 	"github.com/google/shlex"
-	"github.com/gptscript-ai/gptscript/pkg/counter"
-	"github.com/gptscript-ai/gptscript/pkg/env"
-	"github.com/gptscript-ai/gptscript/pkg/types"
-	"github.com/gptscript-ai/gptscript/pkg/version"
+	"github.com/sanjay920/gptscript/pkg/counter"
+	"github.com/sanjay920/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/version"
 )
 
 var requiredFileExtensions = map[string]string{

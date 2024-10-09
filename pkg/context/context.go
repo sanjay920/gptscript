@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/mvl"
 )
 
 type pauseKey struct{}

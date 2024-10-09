@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	context2 "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	context2 "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 func sysPromptHTTP(ctx context.Context, envs []string, url string, prompt types.Prompt) (_ string, err error) {

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/mvl"
+	"github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/mvl"
 )
 
 type middleware func(http.Handler) http.Handler

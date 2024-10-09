@@ -16,15 +16,15 @@ import (
 	"unicode/utf8"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/gptscript-ai/gptscript/internal"
-	"github.com/gptscript-ai/gptscript/pkg/assemble"
-	"github.com/gptscript-ai/gptscript/pkg/builtin"
-	"github.com/gptscript-ai/gptscript/pkg/cache"
-	"github.com/gptscript-ai/gptscript/pkg/hash"
-	"github.com/gptscript-ai/gptscript/pkg/openapi"
-	"github.com/gptscript-ai/gptscript/pkg/parser"
-	"github.com/gptscript-ai/gptscript/pkg/system"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/internal"
+	"github.com/sanjay920/gptscript/pkg/assemble"
+	"github.com/sanjay920/gptscript/pkg/builtin"
+	"github.com/sanjay920/gptscript/pkg/cache"
+	"github.com/sanjay920/gptscript/pkg/hash"
+	"github.com/sanjay920/gptscript/pkg/openapi"
+	"github.com/sanjay920/gptscript/pkg/parser"
+	"github.com/sanjay920/gptscript/pkg/system"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 const CacheTimeout = time.Hour

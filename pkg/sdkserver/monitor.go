@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/gptscript-ai/broadcaster"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	gserver "github.com/gptscript-ai/gptscript/pkg/server"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	gserver "github.com/sanjay920/gptscript/pkg/server"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type SessionFactory struct {

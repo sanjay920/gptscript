@@ -9,10 +9,10 @@ import (
 	"time"
 
 	cmd2 "github.com/gptscript-ai/cmd"
-	"github.com/gptscript-ai/gptscript/pkg/config"
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/gptscript"
-	"github.com/gptscript-ai/gptscript/pkg/repos/runtimes"
+	"github.com/sanjay920/gptscript/pkg/config"
+	"github.com/sanjay920/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/gptscript"
+	"github.com/sanjay920/gptscript/pkg/repos/runtimes"
 	"github.com/spf13/cobra"
 )
 

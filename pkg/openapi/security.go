@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gptscript-ai/gptscript/pkg/env"
+	"github.com/sanjay920/gptscript/pkg/env"
 )
 
 // A SecurityInfo represents a security scheme in OpenAPI.

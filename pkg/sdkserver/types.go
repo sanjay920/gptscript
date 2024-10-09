@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/cache"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/openai"
-	"github.com/gptscript-ai/gptscript/pkg/parser"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
-	gserver "github.com/gptscript-ai/gptscript/pkg/server"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/cache"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/openai"
+	"github.com/sanjay920/gptscript/pkg/parser"
+	"github.com/sanjay920/gptscript/pkg/runner"
+	gserver "github.com/sanjay920/gptscript/pkg/server"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type runState string

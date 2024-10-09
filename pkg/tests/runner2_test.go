@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gptscript-ai/gptscript/pkg/loader"
-	"github.com/gptscript-ai/gptscript/pkg/tests/tester"
+	"github.com/sanjay920/gptscript/pkg/loader"
+	"github.com/sanjay920/gptscript/pkg/tests/tester"
 	"github.com/stretchr/testify/require"
 )
 

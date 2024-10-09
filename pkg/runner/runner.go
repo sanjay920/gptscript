@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gptscript-ai/gptscript/pkg/builtin"
-	context2 "github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/credentials"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/builtin"
+	context2 "github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/credentials"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/types"
 	"golang.org/x/exp/maps"
 )
 

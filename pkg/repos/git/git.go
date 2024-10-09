@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gptscript-ai/gptscript/pkg/hash"
+	"github.com/sanjay920/gptscript/pkg/hash"
 )
 
 func exists(dir string) (bool, error) {

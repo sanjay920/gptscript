@@ -19,10 +19,10 @@ import (
 	"time"
 
 	"github.com/BurntSushi/locker"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/prompt"
-	"github.com/gptscript-ai/gptscript/pkg/types"
 	"github.com/jaytaylor/html2text"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/prompt"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 var SafeTools = map[string]struct{}{

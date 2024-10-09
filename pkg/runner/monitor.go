@@ -3,7 +3,7 @@ package runner
 import (
 	"context"
 
-	"github.com/gptscript-ai/gptscript/pkg/types"
+	"github.com/sanjay920/gptscript/pkg/types"
 )
 
 type noopFactory struct{}

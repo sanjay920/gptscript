@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/gptscript-ai/gptscript/pkg/builtin"
-	"github.com/gptscript-ai/gptscript/pkg/context"
-	"github.com/gptscript-ai/gptscript/pkg/engine"
-	"github.com/gptscript-ai/gptscript/pkg/runner"
+	"github.com/sanjay920/gptscript/pkg/builtin"
+	"github.com/sanjay920/gptscript/pkg/context"
+	"github.com/sanjay920/gptscript/pkg/engine"
+	"github.com/sanjay920/gptscript/pkg/runner"
 )
 
 func Authorize(ctx engine.Context, input string) (runner.AuthorizerResponse, error) {
