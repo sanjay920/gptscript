@@ -1,4 +1,4 @@
-module github.com/gptscript-ai/gptscript
+module github.com/sanjay920/gptscript
 
 go 1.23.1
 
@@ -25,7 +25,6 @@ require (
 	github.com/rs/cors v1.11.0
 	github.com/samber/lo v1.38.1
 	github.com/sanjay920/chat-completion-client v0.0.0-20241008225547-e38560cd92a7
-	github.com/sanjay920/gptscript v0.0.0-20241009004303-a0cc4767aca0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	gptscript "github.com/gptscript-ai/gptscript/pkg/cli"
+	gptscript "github.com/sanjay920/gptscript/pkg/cli"
 	"github.com/spf13/cobra/doc"
 )
 

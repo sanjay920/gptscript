@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gptscript-ai/gptscript/pkg/cli"
+	"github.com/sanjay920/gptscript/pkg/cli"
 )
 
 func main() {
