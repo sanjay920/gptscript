@@ -1,4 +1,4 @@
-module github.com/sanjay920/gptscript
+module github.com/gptscript-ai/gptscript
 
 go 1.23.1
 
